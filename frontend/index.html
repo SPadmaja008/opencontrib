@@ -370,7 +370,7 @@ async function searchProjects() {
   document.getElementById('emptyState').classList.remove('show');
 
   try {
-    const res = await fetch('https://opencontrib-backend.onrender.com/search', {
+    const res = await fetch('https://opencontrib.onrender.com/search', {
       method:'POST', headers:{'Content-Type':'application/json'},
       body: JSON.stringify({skills, experience})
     });
