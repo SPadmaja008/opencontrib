@@ -54,6 +54,6 @@ opencontrib/
 
 ## 👨‍💻 Author
 
-Built by **Enosh** — IT undergrad at Vasavi College of Engineering, Hyderabad
+Built by **Enosh** — IT undergrad at Vasavi College of Engineering, Hyderabad , Telangana.
 
 [![GitHub](https://img.shields.io/badge/GitHub-enoshdev-181717?style=flat&logo=github)](https://github.com/enoshdev)
