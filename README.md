@@ -1,6 +1,6 @@
 # 🌐 OpenContrib
 
-> Discover open source projects that match your skills. Find good first issues. Make your first contribution today.
+> Discover open source projects that match your skills. Find good first issues and even all types of issues. Make your first contribution today.
 
 ## 🔗 Live Demo
 
