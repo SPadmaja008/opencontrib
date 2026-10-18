@@ -392,12 +392,20 @@ async function searchProjects() {
       document.querySelector('.filter-btn').classList.add('active');
       renderRepos(allRepos);
     }
-  } catch(e) {
-    loader.classList.remove('show');
-    alert('Cannot connect to backend. Make sure uvicorn is running.');
-  } finally {
-    btn.disabled=false; btn.textContent='✦ Find My Open Source Projects';
-  }
+  
+} catch (e) {
+  loader.classList.remove('show');
+  console.error('OpenContrib search error:', e);
+
+  alert(
+    e instanceof TypeError
+      ? 'Cannot connect to the backend. Please check your connection and try again.'
+      : (e.message || 'Something went wrong. Please try again.')
+  );
+} finally {
+  btn.disabled = false;
+  btn.textContent = '✦ Find My Open Source Projects';
+}
 }
 
 function updateStats(repos) {
